@@ -1,5 +1,17 @@
 package org.test;
 
-public class TestClass {
+import org.testng.annotations.Test;
 
-}
+public class TestClass {
+	
+	@Test
+	private void test() {
+		System.out.println("test 1");
+		System.out.println("test 2");
+
+	}
+	
+
+		
+		
+	}
